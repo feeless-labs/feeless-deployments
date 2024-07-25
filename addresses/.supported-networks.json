@@ -1,0 +1,10 @@
+{
+  "mainnet": {
+    "chainId": 1075,
+    "block-explorer": "https://explorer.evm.testnet.iotaledger.net/"
+  },
+  "iotatestnet": {
+    "chainId": 1075,
+    "block-explorer": "https://explorer.evm.testnet.iotaledger.net/"
+  }
+}

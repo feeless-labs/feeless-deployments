@@ -1,0 +1,18 @@
+mainnet:
+  network: mainnet
+  supportTraces: true
+  gaugeV2Factory:
+    address: "0xbD250F194338F7237DFE5438Ee58c7F2F8DA092F"
+    startBlock: 79268
+  singleRecipientGaugeV2Factory:
+    address: "0x3411c263BC1385d9871adA91f9a37bDa2b95444d"
+    startBlock: 81195
+  gaugeController:
+    address: "0x7E3Ae4148a021e7597f7D2A2f87aB5E3177E82D1"
+    startBlock: 79262
+  votingEscrow:
+    address: "0x914834667434E0b22554818FA4f5770dA22cda69"
+    startBlock: 79261
+  authorizerAdaptorEntrypoint:
+    address: "0x932257e6D5927f64DbF96d2C2CA5D1c47abc7d6e"
+    startBlock: 52161

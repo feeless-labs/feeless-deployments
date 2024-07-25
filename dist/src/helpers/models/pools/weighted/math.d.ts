@@ -1,0 +1,16 @@
+import { Decimal } from 'decimal.js';
+import { BigNumber } from 'ethers';
+import { BigNumberish } from '../../../numbers';
+export declare function calculateInvariant(fpRawBalances: BigNumberish[], fpRawWeights: BigNumberish[]): BigNumber;
+export declare function calcOutGivenIn(fpBalanceIn: BigNumberish, fpWeightIn: BigNumberish, fpBalanceOut: BigNumberish, fpWeightOut: BigNumberish, fpAmountIn: BigNumberish): Decimal;
+export declare function calcInGivenOut(fpBalanceIn: BigNumberish, fpWeightIn: BigNumberish, fpBalanceOut: BigNumberish, fpWeightOut: BigNumberish, fpAmountOut: BigNumberish): Decimal;
+export declare function calcBptOutGivenExactTokensIn(fpBalances: BigNumberish[], fpWeights: BigNumberish[], fpAmountsIn: BigNumberish[], fpBptTotalSupply: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calcTokenInGivenExactBptOut(tokenIndex: number, fpBalances: BigNumberish[], fpWeights: BigNumberish[], fpBptAmountOut: BigNumberish, fpBptTotalSupply: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calcBptInGivenExactTokensOut(fpBalances: BigNumber[], fpWeights: BigNumber[], fpAmountsOut: BigNumber[], fpBptTotalSupply: BigNumber, fpSwapFeePercentage: BigNumber): BigNumber;
+export declare function calcTokenOutGivenExactBptIn(tokenIndex: number, fpBalances: BigNumberish[], fpWeights: BigNumberish[], fpBptAmountIn: BigNumberish, fpBptTotalSupply: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calcTokensOutGivenExactBptIn(fpBalances: BigNumberish[], fpBptAmountIn: BigNumberish, fpBptTotalSupply: BigNumberish): BigNumber[];
+export declare function calculateOneTokenSwapFeeAmount(fpBalances: BigNumberish[], fpWeights: BigNumberish[], lastInvariant: BigNumberish, tokenIndex: number): Decimal;
+export declare function calculateBPTSwapFeeAmount(fpInvariantGrowthRatio: BigNumberish, preSupply: BigNumberish, postSupply: BigNumberish, fpProtocolSwapFeePercentage: BigNumberish): BigNumber;
+export declare function calculateMaxOneTokenSwapFeeAmount(fpBalances: BigNumberish[], fpWeights: BigNumberish[], fpMinInvariantRatio: BigNumberish, tokenIndex: number): Decimal;
+export declare function calculateSpotPrice(fpBalances: BigNumberish[], fpWeights: BigNumberish[]): BigNumber;
+export declare function calculateBPTPrice(fpBalance: BigNumberish, fpWeight: BigNumberish, totalSupply: BigNumberish): BigNumber;

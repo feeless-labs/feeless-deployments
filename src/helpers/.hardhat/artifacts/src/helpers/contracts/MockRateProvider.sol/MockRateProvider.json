@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockRateProvider",
+  "sourceName": "src/helpers/contracts/MockRateProvider.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060878061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063679aefce14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b670de0b6b3a76400009056fea2646970667358221220bbaa6c6d0dcf3d4bea407313c499d0a19e91f90d101f7f72dcccf9a8eb217def64736f6c63430007010033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063679aefce14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b670de0b6b3a76400009056fea2646970667358221220bbaa6c6d0dcf3d4bea407313c499d0a19e91f90d101f7f72dcccf9a8eb217def64736f6c63430007010033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

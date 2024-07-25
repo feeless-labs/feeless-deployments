@@ -1,0 +1,17 @@
+{
+  "_format": "hh-vy-cache-1",
+  "files": {
+    "/home/roger/balancer-deployments/src/helpers/contracts/VeBoostV2.vy": {
+      "lastModificationDate": 1710786416250,
+      "contentHash": "ff16507af95b0bf2e81f2bf2136e2695",
+      "sourceName": "src/helpers/contracts/VeBoostV2.vy",
+      "vyperConfig": {
+        "version": "0.3.3"
+      },
+      "versionPragma": "0.3.3",
+      "artifacts": [
+        "VeBoostV2"
+      ]
+    }
+  }
+}

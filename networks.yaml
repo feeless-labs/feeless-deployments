@@ -1,0 +1,21 @@
+mainnet:
+  iotaevm:
+  network: iotaevm
+  # graft:
+  #   block: 65629000
+  #   base: QmYsfRRojKnUBbF383mrXh3qE9zyjkwDQqZ4QtPfkijohT
+  Vault:
+    address: "0x4d25b0729901DD546cb5c042c8D63B792960DE4D"
+    startBlock: 66460
+  WeightedPoolVFactory: #pool id salt, beets fee collector
+    address: "0x14C4F1e47793e60b25083bc7d3a88B08cF7774E3"
+    startBlock: 66466
+  ComposableStablePoolV6Factory: #vuln fix
+    address: "0x880843314b08750963120A1A92028729b17bEa9f"
+    startBlock: 66486
+  ManagedPoolV2Factory:
+    address: "0x88d87fdA64837aB6323f48ce898a0648dc29789f"
+    startBlock: 66473
+  LiquidityBootstrappingPoolFactory:
+    address: "0xd0ca61fe288B591A9E70fC5058297d39Cc3bE458"
+    startBlock: 66462

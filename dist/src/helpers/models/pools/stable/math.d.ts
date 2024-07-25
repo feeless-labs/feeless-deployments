@@ -1,0 +1,14 @@
+import { Decimal } from 'decimal.js';
+import { BigNumber } from 'ethers';
+import { BigNumberish } from '../../../numbers';
+export declare function calculateInvariant(fpRawBalances: BigNumberish[], amplificationParameter: BigNumberish): BigNumber;
+export declare function calculateApproxInvariant(fpRawBalances: BigNumberish[], amplificationParameter: BigNumberish): BigNumber;
+export declare function calculateAnalyticalInvariantForTwoTokens(fpRawBalances: BigNumberish[], amplificationParameter: BigNumberish): BigNumber;
+export declare function calcOutGivenIn(fpBalances: BigNumberish[], amplificationParameter: BigNumberish, tokenIndexIn: number, tokenIndexOut: number, fpTokenAmountIn: BigNumberish): Decimal;
+export declare function calcInGivenOut(fpBalances: BigNumberish[], amplificationParameter: BigNumberish, tokenIndexIn: number, tokenIndexOut: number, fpTokenAmountOut: BigNumberish): Decimal;
+export declare function calcBptOutGivenExactTokensIn(fpBalances: BigNumberish[], amplificationParameter: BigNumberish, fpAmountsIn: BigNumberish[], fpBptTotalSupply: BigNumberish, fpCurrentInvariant: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calcTokenInGivenExactBptOut(tokenIndex: number, fpBalances: BigNumberish[], amplificationParameter: BigNumberish, fpBptAmountOut: BigNumberish, fpBptTotalSupply: BigNumberish, fpCurrentInvariant: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calcBptInGivenExactTokensOut(fpBalances: BigNumberish[], amplificationParameter: BigNumberish, fpAmountsOut: BigNumberish[], fpBptTotalSupply: BigNumberish, fpCurrentInvariant: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumber;
+export declare function calcTokenOutGivenExactBptIn(tokenIndex: number, fpBalances: BigNumberish[], amplificationParameter: BigNumberish, fpBptAmountIn: BigNumberish, fpBptTotalSupply: BigNumberish, fpCurrentInvariant: BigNumberish, fpSwapFeePercentage: BigNumberish): BigNumberish;
+export declare function calculateOneTokenSwapFeeAmount(fpBalances: BigNumberish[], amplificationParameter: BigNumberish, lastInvariant: BigNumberish, tokenIndex: number): Decimal;
+export declare function getTokenBalanceGivenInvariantAndAllOtherBalances(amp: number, fpBalances: BigNumber[], fpInvariant: BigNumber, tokenIndex: number): BigNumber;
