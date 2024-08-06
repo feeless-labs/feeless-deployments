@@ -68,7 +68,7 @@
         {
             "chainId": 1075,
             "address": "0x553D8A5927FBA1c3eC05DdA667D6Cda3F5543d3a",
-            "name": "Feeless",
+            "name": "Bitcoin",
             "symbol": "wBTC",
             "decimals": 12
         }
