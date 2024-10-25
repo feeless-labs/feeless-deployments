@@ -1,15 +1,15 @@
 {
   "name": "@feeless/v2-deployments",
-  "version": "3.2.0",
+  "version": "3.2.0-1-2",
   "description": "Addresses and ABIs of all Balancer V2 deployed contracts",
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/balancer/balancer-deployments/#readme",
+  "homepage": "https://github.com/feeless-labs/feeless-deployments/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/balancer-labs/balancer-deployments.git"
+    "url": "https://github.com/feeless-labs/feeless-deployments.git"
   },
   "bugs": {
-    "url": "https://github.com/balancer-labs/balancer-deployments/issues"
+    "url": "https://github.com/feeless-labs/feeless-deployments/issues"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

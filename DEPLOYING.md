@@ -89,31 +89,6 @@ This data is accessed via the [`local-networks-config`](https://www.npmjs.com/pa
   "networks": {
     "mainnet": {
       "url": "https://mainnet.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "mainnet-etherscan-API-key"
-    },
-    "polygon": {
-      "url": "https://polygon.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "polygon-etherscan-API-key"
-    },
-    "arbitrum": {
-      "url": "https://arbitrum.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "arbitrum-etherscan-API-key"
-    },
-    "optimism": {
-      "url": "https://optimism.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "optimism-etherscan-API-key"
-    },
-    "gnosis": {
-      "url": "https://gnosis.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "gnosis-etherscan-API-key"
-    },
-    "bsc": {
-      "url": "https://bsc.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "bsc-etherscan-API-key"
-    },
-    "goerli": {
-      "url": "https://goerli.rpc.endpoint/myAPIKey",
-      "verificationAPIKey": "goerli-etherscan-API-key"
     }
   },
   "defaultConfig": {

@@ -1,8 +1,10 @@
-    { symbol: 'wIOTA', address: '0xB2E0DfC4820cc55829C71529598530E177968613', image: '', decimals: 18},
+        { symbol: 'wIOTA', address: '0xB2E0DfC4820cc55829C71529598530E177968613', image: '', decimals: 18},
         { symbol: 'FLS', address: '0x1074021b00000000000000000000000000000000', image: '', decimals: 12},
-        { symbol: 'wFLS', address: '0xF4e2771F3aF3A523141bDE7b75e7fDe821f98251', image: '', decimals: 12},
-        { symbol: 'wDAI', address: '0x73b666f3C50efe3157c4768AA39845F8bAb25488', image: '', decimals: 12 },
-        { symbol: 'FUSDT', address: '0x06F17B49CEDDfE6FD960b39c7aC8dBF0e95Ed009', image: '', decimals: 12 },
-        { symbol: 'FUSDC', address: '0x9864c7Aa98b22EBCA3F58a84150C00bC5C3d23FE' , image: '', decimals: 12},
-        { symbol: 'wBTC', address: '0x552d872D86E3882e05Ee564e870284d227B01737', image: '', decimals: 12 },
-        { symbol: 'wETH', address: '0x0e369E593Bfb56cB06e5D8e523983eCA2Ff71542' , image: '', decimals: 12}
+        { symbol: 'wFLS', address: '0x1D148Eb4C213e560a6bad71536b96AC5D6F1cDE3', image: '', decimals: 12},
+        { symbol: 'wDAI', address: '0x68EA743120BaCf2C277910700116Eb4b1C0643AA', image: '', decimals: 12 },
+        { symbol: 'FUSDT', address: '0xCa2DBF6Ba5f3252Fd758C113A8c48D6D77406CaC', image: '', decimals: 12 },
+        { symbol: 'FUSDC', address: '0xc4FA42632fea08274ACDB5c0d9331285C01717Ba' , image: '', decimals: 12},
+        { symbol: 'wBTC', address: '0x553D8A5927FBA1c3eC05DdA667D6Cda3F5543d3a', image: '', decimals: 12 },
+        { symbol: 'wETH', address: '0xd8058dA2dF3FBaBC03Ad8Ca51cAB4AAa3614B209' , image: '', decimals: 12}
+        { symbol: 'veFLS', address: '0xB62fe3ed61fa7BA0fc8B8917bd926E1f6EE3eC37' , image: '', decimals: 12}
+      

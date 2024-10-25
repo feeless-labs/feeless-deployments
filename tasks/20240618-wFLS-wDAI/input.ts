@@ -20,9 +20,9 @@ const BaseVersion = { version: 4, deployment: '20230320-weighted-pool-v4' };
 const Vault = new Task('20210418-vault', TaskMode.READ_ONLY);
 const ProtocolFeePercentagesProvider = new Task('20220725-protocol-fee-percentages-provider', TaskMode.READ_ONLY);
 
-const NAME = "ETHBTC";
-const SYMBOL = "ETHBTC";
-const POOLNAME = "ETH/BTC Weighted Pools";
+const NAME = "FLSDAI";
+const SYMBOL = "FLSDAI";
+const POOLNAME = "FLS/DAI Weighted Pools";
 
 export default {
   BAL,

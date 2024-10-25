@@ -2205,6 +2205,2211 @@
       "artifacts": [
         "MockOmniVotingEscrow"
       ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ILayerZeroBALProxy.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "b3a11b46c2b91fa7a92839a7ce5c04a5",
+      "sourceName": "src/helpers/contracts/ILayerZeroBALProxy.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ILayerZeroBALProxy"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MaliciousQueryReverter.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "45cde372beabd5f582abbaa2b5df6d34",
+      "sourceName": "src/helpers/contracts/MaliciousQueryReverter.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MaliciousQueryReverter"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockYearnTokenVault.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "083422b61952bd6305a0e9e49cfaeffe",
+      "sourceName": "src/helpers/contracts/MockYearnTokenVault.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol",
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockYearnTokenVault"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/TestToken.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "7a8d7c70c822036c6fe5df0d3996e889",
+      "sourceName": "src/helpers/contracts/TestToken.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Burnable.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Permit.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "TestToken"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Burnable.sol": {
+      "lastModificationDate": 1721940356139,
+      "contentHash": "e1f375a9fd0668548ce65621736986ff",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20.sol": {
+      "lastModificationDate": 1721940356135,
+      "contentHash": "e93329fe08eee7f1237d9218dd87fd37",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol",
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Permit.sol": {
+      "lastModificationDate": 1721940356139,
+      "contentHash": "26f69c9ac41640af5d6cb344f378aed1",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20Permit.sol",
+        "./ERC20.sol",
+        "../helpers/EOASignaturesValidator.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Permit"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "5349bc9b56cfd8673e6849202fb373c3",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20.sol": {
+      "lastModificationDate": 1721940356099,
+      "contentHash": "028dddcf9b178b241401b1ae8126c903",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/openzeppelin/SafeMath.sol": {
+      "lastModificationDate": 1721940356139,
+      "contentHash": "8a6d559ccbfa713960f097ec21827a79",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/helpers/EOASignaturesValidator.sol": {
+      "lastModificationDate": 1721940356131,
+      "contentHash": "e31f727670034beb2ae90b8671411131",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/helpers/EOASignaturesValidator.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol",
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/ISignaturesValidator.sol",
+        "../openzeppelin/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "EOASignaturesValidator"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20Permit.sol": {
+      "lastModificationDate": 1721940356099,
+      "contentHash": "eeda0f4de85c0a03dfec61732f1f8dff",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/ISignaturesValidator.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "48de5f36515898c9e9ddcd00f651ef86",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/ISignaturesValidator.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ISignaturesValidator"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/openzeppelin/EIP712.sol": {
+      "lastModificationDate": 1721940356135,
+      "contentHash": "4bbdf6032d5c253568e8ee990ea717d5",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/EIP712.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IVault.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "46a20a7701464ab9c62cb907614fd3bb",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol",
+        "../solidity-utils/helpers/IAuthentication.sol",
+        "../solidity-utils/helpers/ISignaturesValidator.sol",
+        "../solidity-utils/helpers/ITemporarilyPausable.sol",
+        "../solidity-utils/misc/IWETH.sol",
+        "./IAsset.sol",
+        "./IAuthorizer.sol",
+        "./IFlashLoanRecipient.sol",
+        "./IProtocolFeesCollector.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IVault"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IAsset.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "20c61578e7416055512409a25576fb1a",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IAsset.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IAsset"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IAuthorizer.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "03599610995051c98edd4f72102136b2",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IAuthorizer.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IAuthorizer"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IFlashLoanRecipient.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "31e2c769fc0ac25db2d9b46225793f01",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IFlashLoanRecipient.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IFlashLoanRecipient"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IProtocolFeesCollector.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "26a23f2667431cfc1ea8aa5e69edef63",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IProtocolFeesCollector.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol",
+        "./IVault.sol",
+        "./IAuthorizer.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProtocolFeesCollector"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/IAuthentication.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "63f8c7b7a4ac329c8104063a025a991b",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/IAuthentication.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IAuthentication"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/ITemporarilyPausable.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "5a94e6420fe95c3e0fa16e78fb8f74c3",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/ITemporarilyPausable.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ITemporarilyPausable"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/solidity-utils/misc/IWETH.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "8347e7eef0bb47de8851ecbcf8eb590c",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/solidity-utils/misc/IWETH.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../openzeppelin/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IPoolSwapStructs.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "05f1ea966ec263d50ab719f07e500d15",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IPoolSwapStructs.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol",
+        "./IVault.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IPoolSwapStructs"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-utils/IManagedPool.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "1426c0b5e2d90342bd3ca89086e91f48",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-utils/IManagedPool.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol",
+        "../vault/IBasePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IManagedPool"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/vault/IBasePool.sol": {
+      "lastModificationDate": 1721940356103,
+      "contentHash": "7403ab9e46972d78d162c0551e722dba",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/vault/IBasePool.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IVault.sol",
+        "./IPoolSwapStructs.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IBasePool"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol": {
+      "lastModificationDate": 1721940356091,
+      "contentHash": "0e2d4a26ee74d88d3efd611e6d320efb",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol",
+        "../vault/IBasePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ILinearPool"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerLP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "df514f53ebc56be5c266cfe3fa48f395",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerLP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerLP"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol": {
+      "lastModificationDate": 1721940356135,
+      "contentHash": "bdc0572c8a87d18e2176acb743308ca7",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol",
+        "./LogExpMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "FixedPoint"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol": {
+      "lastModificationDate": 1721940356131,
+      "contentHash": "c606e172b135550ca494363323c8d945",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol",
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20.sol",
+        "@balancer-labs/v2-interfaces/contracts/vault/IAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": []
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/math/LogExpMath.sol": {
+      "lastModificationDate": 1721940356135,
+      "contentHash": "2fd1c0da1df3124e9d380ad9d55f701f",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/math/LogExpMath.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "LogExpMath"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerEP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "d6e802f09086e4737d853e6b5a266815",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerEP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerEP"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerAaveLP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "1ab5dab175191c7f3bbcc53f74b2e0c5",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerAaveLP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerAaveLP"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockGearboxVault.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "bd4c921102e15c739b829a89c4176c89",
+      "sourceName": "src/helpers/contracts/MockGearboxVault.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockGearboxVault"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockERC4626Token.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "7d3dcffc0e3c553e0ea104b47fb8cfdd",
+      "sourceName": "src/helpers/contracts/MockERC4626Token.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/pool-linear/IERC4626.sol",
+        "./MaliciousQueryReverter.sol",
+        "./TestToken.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol",
+        "@balancer-labs/v2-solidity-utils/contracts/math/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockERC4626Token"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-linear/IERC4626.sol": {
+      "lastModificationDate": 1721940356091,
+      "contentHash": "893124453401b2421cb45a4a80d50816",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-linear/IERC4626.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC4626"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-solidity-utils/contracts/math/Math.sol": {
+      "lastModificationDate": 1721940356135,
+      "contentHash": "eb96425992d9d80f2c35478feb411d69",
+      "sourceName": "@balancer-labs/v2-solidity-utils/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockBaseSilo.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "88e5c3b9ca37e0d51bcfbf1e1cbbc690",
+      "sourceName": "src/helpers/contracts/MockBaseSilo.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ERC20.sol",
+        "./MaliciousQueryReverter.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IBaseSilo",
+        "ISilo",
+        "MockBaseSilo"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockSilo.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "ff0af8786abc8635361caeb02878fdc0",
+      "sourceName": "src/helpers/contracts/MockSilo.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MockBaseSilo.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockSilo"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockL2VotingEscrow.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "97c1ae052c0c1d87abb99968ab27a0b6",
+      "sourceName": "src/helpers/contracts/MockL2VotingEscrow.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/openzeppelin/IERC20.sol",
+        "@balancer-labs/v2-interfaces/contracts/solidity-utils/helpers/BalancerErrors.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockL2VotingEscrow"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerMP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "0ba72ac5c8c6c33e20b9800dc04b2fc9",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerMP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IManagedPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerMP"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "d1b3471d13abb761302364fa8cee1e38",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProtocolFeeCache"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerWP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "a63c6b128173832e13cccf79b46a2302",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerWP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryMode.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerWP"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryMode.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "fb48443758dfbd375577b5af85e8f67b",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryMode.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IRecoveryMode"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/ReadOnlyReentrancyAttackerCSP.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "50b55f5b11341a3bb9441de082e5ad8f",
+      "sourceName": "src/helpers/contracts/ReadOnlyReentrancyAttackerCSP.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/vault/IVault.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProvider.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProviderPool.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryMode.sol",
+        "@balancer-labs/v2-interfaces/contracts/pool-stable/IComposableStablePoolRates.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ReadOnlyReentrancyAttackerCSP"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProvider.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "f1b560d1100adaf9ff66479b3e636468",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProvider.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IRateProvider"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProviderPool.sol": {
+      "lastModificationDate": 1721940356095,
+      "contentHash": "01eb32892748886088f276849a52ed4b",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProviderPool.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IRateProvider.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IRateProviderPool"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/pool-stable/IComposableStablePoolRates.sol": {
+      "lastModificationDate": 1721940356091,
+      "contentHash": "c0380b45b47582039add6c25c7c6684e",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/pool-stable/IComposableStablePoolRates.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../solidity-utils/openzeppelin/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IComposableStablePoolRates"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockRateProvider.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "eccd1c05ff5a9ab386917bbe8a1c1cc5",
+      "sourceName": "src/helpers/contracts/MockRateProvider.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockRateProvider"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockVeDelegation.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "27504aaee0fc2443cb0621d1ebb2db74",
+      "sourceName": "src/helpers/contracts/MockVeDelegation.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@balancer-labs/v2-interfaces/contracts/liquidity-mining/IVeDelegation.sol",
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockVeDelegation"
+      ]
+    },
+    "/home/roger/feeless-deployments/node_modules/@balancer-labs/v2-interfaces/contracts/liquidity-mining/IVeDelegation.sol": {
+      "lastModificationDate": 1721940356091,
+      "contentHash": "400df7b82a3c5d536a52b2ed78385bc5",
+      "sourceName": "@balancer-labs/v2-interfaces/contracts/liquidity-mining/IVeDelegation.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IVeDelegation"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockVE.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "3c4c2010188b22ee1e754df15dfa60f4",
+      "sourceName": "src/helpers/contracts/MockVE.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockVE"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockStaticAToken.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "5513258c6beac55b20b685663f073ce0",
+      "sourceName": "src/helpers/contracts/MockStaticAToken.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockStaticAToken"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockShareToken.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "4cb4c2decefb1d072d2144c69d9065a9",
+      "sourceName": "src/helpers/contracts/MockShareToken.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol",
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockShareToken"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockGearboxDieselToken.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "d47ba97e90bffab97dc750e5c151589d",
+      "sourceName": "src/helpers/contracts/MockGearboxDieselToken.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockGearboxDieselToken"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockEulerToken.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "171d212d099440720f35ba1f02198183",
+      "sourceName": "src/helpers/contracts/MockEulerToken.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol",
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockEulerToken"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockAaveLendingPool.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "dcb8d3cccab2278477ff440109ac45bb",
+      "sourceName": "src/helpers/contracts/MockAaveLendingPool.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol",
+        "./TestToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockAaveLendingPool"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockSiloRepository.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "a239b2b46352a0b3088594c7aa38683c",
+      "sourceName": "src/helpers/contracts/MockSiloRepository.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MockInterestRateModel.sol",
+        "./MaliciousQueryReverter.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockSiloRepository"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockInterestRateModel.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "a0594146ead03db6fae6c317a78538c0",
+      "sourceName": "src/helpers/contracts/MockInterestRateModel.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MaliciousQueryReverter.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockInterestRateModel"
+      ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/MockOmniVotingEscrow.sol": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "da9baf1c63fef0278001d3eab2d893d5",
+      "sourceName": "src/helpers/contracts/MockOmniVotingEscrow.sol",
+      "solcConfig": {
+        "version": "0.7.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "MockOmniVotingEscrow"
+      ]
     }
   }
 }

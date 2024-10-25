@@ -10,6 +10,6 @@ const VotingEscrow = new Task('20220325-gauge-controller', TaskMode.READ_ONLY);
 export default {
   VotingEscrow,
   iotatestnet: {
-    startTime: 1723317707, // 6 giugno 2024
+    startTime: 1727740800, // 6 giugno 2024
   }
 };

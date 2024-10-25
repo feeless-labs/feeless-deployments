@@ -12,6 +12,18 @@
       "artifacts": [
         "VeBoostV2"
       ]
+    },
+    "/home/roger/feeless-deployments/src/helpers/contracts/VeBoostV2.vy": {
+      "lastModificationDate": 1721940366716,
+      "contentHash": "ff16507af95b0bf2e81f2bf2136e2695",
+      "sourceName": "src/helpers/contracts/VeBoostV2.vy",
+      "vyperConfig": {
+        "version": "0.3.3"
+      },
+      "versionPragma": "0.3.3",
+      "artifacts": [
+        "VeBoostV2"
+      ]
     }
   }
 }

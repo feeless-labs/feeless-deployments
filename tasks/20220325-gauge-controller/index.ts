@@ -4,7 +4,7 @@ import { GaugeSystemDeployment } from './input';
 export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise<void> => {
   const input = task.input() as GaugeSystemDeployment;
 
-  const veBALArgs = [input.BPT, 'Vote Escrowed Balancer BPT', 'veBAL', input.AuthorizerAdaptor];
+  const veBALArgs = [input.BPT, 'Vote Escrowed Balancer BPT', 'veFLS', input.AuthorizerAdaptor];
   const veBAL = await task.deploy('VotingEscrow', veBALArgs, from, force);
 
   const gaugeControllerArgs = [veBAL.address, input.AuthorizerAdaptor];
